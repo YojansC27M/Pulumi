@@ -1,0 +1,8 @@
+1. Instalar Go y Pulumi -> Desde las paginas oficiales descargue los MSI
+2. Crear una cuenta en Pulumi Gratuita y obtener el access token free
+3. Loguearse en pulumi con el access token
+4.Crear el repositorio con-> pulumi new aws-go
+5. Verificar si estamos conectados aws y configurar la region en pulumi tal cual como esta aws
+6. En el archivo Main escribi el codigo para cargar el bucket en pulumi y AWS con el lenguaje de Go
+7. Se desplego el codigo con el siguiente comando->pulumi up y se confirmo los cambios se que se van a subir
+8. Se verifica que en pulumi y aws esta creado el bucket
